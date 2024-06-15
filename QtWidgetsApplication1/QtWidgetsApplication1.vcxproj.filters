@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{e9286e4c-b99f-4747-9631-7a3ec5135a2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{782cff80-c764-412b-9fea-68f1a39bb6e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\images">
+      <UniqueIdentifier>{e0a609d2-5342-4c43-9e42-6a3f792dd28e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Health.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StartWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Enemy.h">
+      <Filter>Header</Filter>
+    </QtMoc>
+    <QtMoc Include="Player.h">
+      <Filter>Header</Filter>
+    </QtMoc>
+    <QtMoc Include="Bullet.h">
+      <Filter>Header</Filter>
+    </QtMoc>
+    <QtMoc Include="StartWindow.h">
+      <Filter>Header</Filter>
+    </QtMoc>
+    <QtMoc Include="Game.h">
+      <Filter>Header</Filter>
+    </QtMoc>
+    <QtMoc Include="Health.h">
+      <Filter>Header</Filter>
+    </QtMoc>
+    <QtMoc Include="Score.h">
+      <Filter>Header</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\player.png">
+      <Filter>Resources\images</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\bg.png">
+      <Filter>Resources\images</Filter>
+    </Image>
+    <Image Include="images\bullet.png">
+      <Filter>Resources\images</Filter>
+    </Image>
+    <Image Include="images\enemy.png">
+      <Filter>Resources\images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="record.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RecordManager.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
